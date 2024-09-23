@@ -84,6 +84,11 @@ header {
   cursor: pointer;
   display: none;
 }
+header.sticky {
+  background: var(--bg-color);
+  padding: 12px 13%;
+  box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+}
 
 /* ======= Styles Home ======= */
 .home {
