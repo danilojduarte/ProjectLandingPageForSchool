@@ -147,3 +147,24 @@ header.sticky {
   height: auto;
   width: 100%;
 }
+
+
+/* ======= Styles Container ======= */
+.container {
+  padding: 70px 13%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 1.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+.container-box {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  padding: 20px 30px;
+  box-shadow: -11.729px -11.729px 32px rgb(255 255 255 / 15%);
+  transition: all .40s ease;
+}
