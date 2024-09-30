@@ -335,10 +335,13 @@ header.sticky {
 /* ======= Styles Cta ======= */
 
 .cta-content {
-  display: grid;
+display: grid;
 grid-template-columns: repeat(auto-fit, minmax(170px, auto));
 gap: 2rem;
 align-items: center;
 text-align: center;
 margin-top: 5rem;
 }
+
+
+/* ======= Styles Sobre ======= */
