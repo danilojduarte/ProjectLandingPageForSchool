@@ -345,3 +345,37 @@ margin-top: 5rem;
 
 
 /* ======= Styles Sobre ======= */
+
+.sobre {
+  background: url(../assets/img-sobre-03.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+.sobre-img img {
+  width: 100%;
+  height: auto;
+}
+.sobre-texto h2 {
+  font-size: var(--h2-font);
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.sobre-texto p {
+  font-size: var(--p-font);
+  color: var(--second-color);
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.sobre-texto h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.sobre-texto h5 {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
