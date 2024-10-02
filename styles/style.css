@@ -379,3 +379,44 @@ margin-top: 5rem;
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+/* ======= Styles Contato ======= */
+.contato {
+  padding: 60px 13%;
+  background: var(--bg-color);
+}
+.contato-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
+}
+.contato-content img {
+  width: 160px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.contato-content li {
+  margin-bottom: 18px;
+}
+.contato-content li a {
+  display: block;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 15px;
+  transition: all .40s ease;
+}
+.contato-content li a:hover {
+  transform: translateX(10px);
+  color: var(--main-color);
+}
+
+.last-text {
+  text-align: center;
+  padding: 18px;
+  color: var(--second-color);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+}
