@@ -508,4 +508,11 @@ header.sticky {
   .home {
     height: 120vh;
   }
+  .cursos-content {
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+  }
 }
