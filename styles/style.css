@@ -272,22 +272,24 @@ header.sticky {
 }
 .row {
   background: var(--bg-color);
-  padding: 0px 0px 10px 0px;
-  border-radius: 20px;
+  padding: 8px 0px 8px 0px;
+  border-radius: 16px;
   box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
   transition: all 0.4s ease;
+
+  text-align: center;
 }
 .row:hover {
   transform: translateY(-15px);
 }
 .row img {
-  width: 100%;
-  height: 320px;
+  width: 80%;
+  height: 280px;
   object-fit: cover;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 8px 8px 0px 0px;
 }
 .cursos-texto {
-  padding: 35px 20px;
+  padding: 25px 18px;
 }
 .cursos-texto h5 {
   color: var(--main-color);
